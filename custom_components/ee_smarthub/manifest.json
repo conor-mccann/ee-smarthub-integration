@@ -1,0 +1,13 @@
+{
+  "domain": "ee_smarthub",
+  "name": "EE SmartHub",
+  "codeowners": ["@conor-mccann"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/conor-mccann/ee-smarthub-integration",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/conor-mccann/ee-smarthub-integration/issues",
+  "requirements": ["beautifulsoup4==4.14.3", "aiohttp==3.13.3"],
+  "version": "0.0.1"
+}
