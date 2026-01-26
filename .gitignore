@@ -7,6 +7,8 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+.venv/
+venv/
 
 # IDEs
 .vscode/
@@ -23,3 +25,6 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Generated proto files
+proto/*.proto
